@@ -16,7 +16,7 @@ export default function Courses() {
             src={`http://localhost:5000/${c.image}`}
             className="rounded mb-3"
           />
-          <h2 className="font-bold text-lg">{c.titre}</h2>
+          <h2 className="font-bold text-lg">{c.titre}  </h2>
           <p className="text-gray-600">{c.description}</p>
         </div>
       ))}
